@@ -177,7 +177,7 @@ function validatePassword2(){
 
 function validateForm1(){
   
-    if(!validateEmail1() || !validatePassword1() || !validatePhone1()){  
+    if(!validateEmail1() || !validatePhone1() || !validatePassword1() ){  
         element.preventDefault();
     }
     else{
@@ -188,7 +188,7 @@ function validateForm1(){
 
 function validateForm2(){
   
-    if(!validateEmail2() || !validatePassword2() || !validatePhone2()){  
+    if(!validateEmail2() || !validatePhone2() || !validatePassword2()){  
         element.preventDefault();
     }
     else{
